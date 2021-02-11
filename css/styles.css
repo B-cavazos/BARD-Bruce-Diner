@@ -2,23 +2,28 @@
     margin: 0px;
 }
 
+body{
+    background-color: rgb(0,0,0);
+    color: rgb(243, 242, 202);
+}
+
 .navbar{
     margin-bottom: 0px;
     border-radius: 0px;
 }
 
 #header{
-    /* display: flex;
-    justify-content: center; */
     height: 100vh;
-    background-color: brown;
+    background-image: url(/img/hamburger.jfif);
+    filter: saturate(75%);
+    /* background-color: brown; */
 
 }
 
 #header-bg-overlay{
     display: flex;
     justify-content: center;
-    background-color: darkmagenta;
+    background-color: rgba(4, 194, 137, .4);
     height: inherit;
     width: 100%;
 }
@@ -34,6 +39,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 40%;
     background-color:chocolate;
@@ -52,7 +58,7 @@
     align-items: center;
     height: 40vh;
     width: 40%;
-    background-color:rgb(185, 85, 13);
+    /* background-color:rgb(185, 85, 13); */
 }
 
 .form-group{
@@ -63,6 +69,6 @@
     display: flex;
     justify-content: space-evenly;
     height: 50px;
-    background-color: brown;
+    /* background-color: brown; */
     
 }
