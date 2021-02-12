@@ -108,6 +108,7 @@ p{
 
 #form-container{
     background-color: rgb(4, 160, 113);
+    padding-bottom: 50px;
 }
 
 #form h3{
@@ -126,4 +127,11 @@ p{
     background-color: rgb(4, 160, 113);
     /* background-color: brown; */
     
+}
+
+.socials{
+    height: 30px;
+    width: 30px;
+    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(321deg) brightness(110%) contrast(110%);
+
 }
