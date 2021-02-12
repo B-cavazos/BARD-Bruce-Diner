@@ -124,6 +124,10 @@ p{
     width: 100%;
 }
 
+.btn-primary{
+    background-color: rgb(228, 152, 13) !important;
+    font-weight: bold !important;
+}
 
 /* FOOTER CSS */
 #footer{
