@@ -3,8 +3,19 @@
 }
 
 body{
-    background-color: rgb(0,0,0);
+    background-color: rgb(86, 88, 88);
     color: rgb(243, 242, 202);
+}
+
+h1{
+    font-family: 'Freckle Face', cursive;
+    font-size: 120pt;
+    color: rgb(228, 152, 13);
+}
+
+h3{
+    font-family: 'Ceviche One', cursive;
+    font-size: 60pt;
 }
 
 .navbar{
@@ -32,8 +43,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkgray;
+    /* background-color: darkgray; */
 }
+
+#header-container p{
+    font-family: 'Freckle Face', cursive;
+    font-size: 30pt;
+    margin-bottom: -40px;
+}
+
+#header-container h3{
+    font-size: 36pt;
+    margin-top: -38px;
+}
+
 
 #about{
     display: flex;
@@ -42,7 +65,7 @@ body{
     justify-content: center;
     height: 100vh;
     width: 40%;
-    background-color:chocolate;
+    /* background-color:chocolate; */
 
 }
 
@@ -59,6 +82,11 @@ body{
     height: 40vh;
     width: 40%;
     /* background-color:rgb(185, 85, 13); */
+}
+
+#form h3{
+    font-family: 'Ceviche One', cursive;
+    font-size: 30pt;
 }
 
 .form-group{
