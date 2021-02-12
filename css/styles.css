@@ -111,6 +111,10 @@ p{
 }
 
 #form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(4, 160, 113);
     padding-bottom: 50px;
 }
@@ -122,6 +126,10 @@ p{
 
 .form-group{
     width: 100%;
+}
+
+.form-text{
+    color:rgb(18, 110, 110);
 }
 
 .btn-primary{
