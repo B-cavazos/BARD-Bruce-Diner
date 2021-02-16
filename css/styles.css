@@ -33,7 +33,7 @@ p{
 
 .navbar-brand {
     position: relative;
-    background: url(/img/Logo.png);
+    background: url(../img/Logo.png);
     width: 80px;
     margin: 5px, 5px, 0px, 15px;
     background-size: contain;
